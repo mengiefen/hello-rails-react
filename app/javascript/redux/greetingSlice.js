@@ -32,33 +32,3 @@ export const greetingSlice = createSlice({
 });
 
 export default greetingSlice.reducer;
-
-// const FETCH = "greeting/fetchRandomGreeting";
-
-// const initialState = {};
-
-// const greetingReducer = (state = initialState, action) => {
-//   switch (action.type) {
-//     case FETCH:
-//       return { ...state, ...action.payload };
-//   }
-// };
-
-// export const getGreeting = (data) => {
-//   return {
-//     type: FETCH,
-//     payload: data,
-//   };
-// };
-
-// export const fetchGreeting = () => async (dispatch) => {
-//   try {
-//     await fetch("http://127.0.0.1:3000/api/v1/greeting").then((response) =>
-//       dispatch(getGreeting(response.json()))
-//     );
-//   } catch (err) {
-//     throw new Error(err);
-//   }
-// };
-
-// export default greetingReducer;
