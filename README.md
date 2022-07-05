@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
   - run `bundle install`
   - run `yarn install`
   - run `rails db:create db:migrate`
-  - run `rails db:seed
+  - run `rails db:seed`
 
 ## Running the Application Locally
 
